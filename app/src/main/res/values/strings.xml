@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Build A Dictionary</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_main">HomeMainActivity</string>
+
+    //HOME SCREEN STRINGS
+    <string name="button_add_word">ADD WORD</string>
+    <string name="button_search_words">SEARCH WORDS</string>
+    <string name="button_view_words">VIEW WORDS</string>
+    <string name="title_activity_view_words">ViewWordsActivity</string>
+
+    //ADD WORD STRINGS
+    <string name="input_word">WORD</string>
+    <string name="input_word_translation">TRANSLATION</string>
+    <string name="input_word_past_tense">PAST TENSE</string>
+    <string name="input_word_plural">PLURAL</string>
+    <string name="input_word_degrees_of_comparison">DEGREES OF COMPARISON</string>
+    <string name="chkBox_favourite">FAVOURITE</string>
+    <string name="input_similar_words">SIMILAR WORDS</string>
+    <string name="input_word_phrases">PHRASES</string>
+    <string name="input_tag">TAG</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_save">SAVE</string>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWordActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/wordInput"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_word"
+            />
+
+        <EditText
+            android:id="@+id/wordTranslationInput"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_word_translation"/>
+
+        <Spinner
+            android:id="@+id/wordTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/wordPastTense"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_word_past_tense" />
+
+        <EditText
+            android:id="@+id/wordPlural"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_word_plural" />
+
+        <EditText
+            android:id="@+id/wordDegreeOfComparison"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_word_degrees_of_comparison" />
+
+        <CheckBox
+            android:id="@+id/wordFavourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkBox_favourite"/>
+
+        <EditText
+            android:id="@+id/wordSimilarWords"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_similar_words" />
+
+        <EditText
+            android:id="@+id/wordPhrases"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_word_phrases" />
+
+        <EditText
+            android:id="@+id/wordTags"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_tag" />
+
+        <LinearLayout
+            android:id="@+id/add_word_action_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/word_cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancel"/>
+
+            <Button
+                android:id="@+id/word_save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_save"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
